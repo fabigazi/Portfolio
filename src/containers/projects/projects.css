@@ -1,0 +1,119 @@
+.proj-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 11px 3px 30px;
+    margin-top: 43px;
+}
+
+@media (max-width: 991px) {
+    .proj-container {
+        max-width: 100%;
+        padding-left: 20px;
+        margin: 40px 8px 0 0;
+    }
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.38px;
+    line-height: 120%;
+}
+
+@media (max-width: 991px) {
+    .button-group {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+
+.main-content {
+    margin-top: 40px;
+    padding-top: 21px;
+}
+
+@media (max-width: 991px) {
+    .main-content {
+        max-width: 100%;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    .content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+.image-column {
+    width: 40%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .image-column {
+        width: 100%;
+    }
+}
+
+.image-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .image-wrapper {
+        margin-top: 40px;
+    }
+}
+
+.image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 157px;
+    margin-top: 88px;
+}
+
+.image:first-child {
+    margin-top: 0;
+}
+
+@media (max-width: 991px) {
+    .image {
+        margin-top: 40px;
+    }
+}
+
+.image-circle {
+    
+    margin-top: 88px;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(320deg, #232732 14.78%, #232732 95.73%);
+    box-shadow: -5px -5px 5px 0 rgba(255, 255, 255, 0.30),
+      10px 10px 10px 0 rgba(0, 0, 0, 0.70);
+}

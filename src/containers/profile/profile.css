@@ -1,0 +1,158 @@
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+@media (max-width: 991px) {
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.navbar {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.38px;
+  line-height: 109%;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    max-width: 100%;
+    flex-wrap: wrap;
+    white-space: initial;
+  }
+}
+
+.profile-image {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 474px;
+  margin-top: 147px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .profile-image {
+    margin-top: 40px;
+  }
+}
+
+.greeting {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.38px;
+  margin-top: 54px;
+  font: 400 38px/63% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+@media (max-width: 991px) {
+  .greeting {
+    margin-top: 40px;
+  }
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.38px;
+  margin-top: 37px;
+  font: 700 62px/39% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+@media (max-width: 991px) {
+  .name {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.title-container {
+  justify-content: center;
+  display: flex;
+  margin-top: 18px;
+  gap: 7px;
+  font-size: 38px;
+  color: #2074d3;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.38px;
+  line-height: 52px;
+}
+
+@media (max-width: 991px) {
+  .title-container {
+    flex-wrap: wrap;
+  }
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  align-self: start;
+  margin-top: 10px;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+@media (max-width: 991px) {
+  .title {
+    max-width: 100%;
+  }
+}
+
+.title-separator {
+  background-color: #2074d3;
+  width: 5px;
+  height: 52px;
+}
+
+.bio {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.38px;
+  margin-top: 33px;
+  width: 695px;
+  font: 300 21px/28px Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+@media (max-width: 991px) {
+  .bio {
+    max-width: 100%;
+  }
+}
+
+.cta-buttons {
+  display: flex;
+  margin-top: 47px;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.38px;
+  line-height: 127%;
+}
+
+@media (max-width: 991px) {
+  .cta-buttons {
+    margin-top: 40px;
+  }
+}

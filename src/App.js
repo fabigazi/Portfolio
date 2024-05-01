@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import './app.css';
 
-function App() {
+import Profile from './containers/profile/Profile';
+import About from './containers/about/About';
+import Divide from './components/divide/Divide';
+import Projects from './containers/projects/Projects';
+import Skills from './containers/skills/Skills';
+import Certifications from './containers/certifications/Certifications';
+import Experience from './containers/experinece/Experience';
+import Contact from './containers/contact/Contact';
+import Slider from './components/scrollbar/Scrollbar';
+
+const App = () => {
+  const [value, setValue] = useState(50);
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Slider value={value} onChange={handleChange} /> */}
+      <div className="container">
+        <div className="inner-container">
+          <Profile />
+          <About />
+          <Divide title={"Projects"}/>
+          <Projects />
+          <Divide title={"Skills"}/>
+          <Skills />
+          <Divide title={"Certifications"}/>
+          <Certifications/>
+          <Divide title={"Experience"}/>
+          <Experience />
+          <Divide title={"Contact Me"}/>
+          <Contact />
+        </div>
+      </div>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

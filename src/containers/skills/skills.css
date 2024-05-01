@@ -1,0 +1,63 @@
+.skills-container{
+    margin-top: 50px;
+}
+
+.image-grid {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 20px 0 21px;
+  }
+
+  @media (max-width: 991px) {
+    .image-grid {
+      max-width: 100%;
+      margin-right: 10px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .image-card {
+    aspect-ratio: 0.68;
+    object-fit: cover;
+    object-position: center;
+    width: 40px;
+    align-self: stretch;
+    margin: auto 0;
+
+    margin-top: 88px;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(320deg, #232732 14.78%, #232732 95.73%);
+    box-shadow: -5px -5px 5px 0 rgba(255, 255, 255, 0.30),
+      10px 10px 10px 0 rgba(0, 0, 0, 0.70);
+  }
+
+  .image-card:nth-child(2) {
+    aspect-ratio: 1;
+    width: 35%;
+    /* box-shadow: -6px -6px 12px 0px rgba(255, 255, 255, 0.25),
+      6px 6px 12px 0px rgba(0, 0, 0, 0.25); */
+  }
+
+  .button-group {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.38px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .button-group {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
