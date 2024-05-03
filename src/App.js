@@ -28,8 +28,8 @@ const App = () => {
           <Projects />
           <Divide title={"Skills"}/>
           <Skills />
-          <Divide title={"Certifications"}/>
-          <Certifications/>
+          {/* <Divide title={"Certifications"}/> */}
+          {/* <Certifications/> */}
           <Divide title={"Experience"}/>
           <Experience />
           <Divide title={"Contact Me"}/>

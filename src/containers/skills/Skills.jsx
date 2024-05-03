@@ -1,9 +1,32 @@
 import * as React from "react";
 import './skills.css'
 import Button from "../../components/button/Button";
+import data from './skillsData.js'
 
 function ImageCard({ src, alt }) {
     return <img className="image-card" src={src} alt={alt} loading="lazy" />;
+}
+
+//6:44 https://www.youtube.com/watch?v=6YnryDjEGr8
+
+function Slider() {
+    return(
+        <div className="w-3/4 m-auto">
+            <div className="mt-20">
+                {data.map((d) => (
+                    <div className="bg-white h-[450px] text-black rounded-xl">
+                        <div className="h-56 roudned-t-xl bg-indigo-500 flex justify-center items-center">
+                            <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
+                        </div>
+                        <div className="flex flex-col justify-center items-center gap-4 p-4">
+                            <p className="text-xl font-semibold">{d.name}</p>
+                        </div>
+                    </div>
+
+                ))}
+            </div>
+        </div>
+    );
 }
 
 function Skills() {
@@ -27,6 +50,7 @@ function Skills() {
             <div className="button-group">
                 <Button label={"Languages"} />
             </div>
+            <Slider />
             <main className="image-grid">
                 {images.map((image, index) => (
                     <ImageCard key={index} src={image.src} alt={image.alt} />
