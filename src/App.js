@@ -5,7 +5,8 @@ import Profile from './containers/profile/Profile';
 import About from './containers/about/About';
 import Divide from './components/divide/Divide';
 import Projects from './containers/projects/Projects';
-import Skills from './containers/skills/Skills';
+//import Skills from './containers/skills/Skills';
+import Skills from './containers/skills3/Skills3'
 import Certifications from './containers/certifications/Certifications';
 import Experience from './containers/experinece/Experience';
 import Contact from './containers/contact/Contact';

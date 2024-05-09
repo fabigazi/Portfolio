@@ -6,7 +6,11 @@
 
 .line-container {
     border-radius: 33px;
-    background-color: #2074d3;
+    background-color: #016679;
+    /* 002d36 dark teal*/
+    /* 016679 light teal*/
+    /* 2074d3 blue*/
+    /* 7733ff */
     display: flex;
     margin-top: 22px;
     width: 915px;

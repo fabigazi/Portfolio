@@ -1,5 +1,26 @@
 
+body {
+    overflow: overlay;
+}
+
 ::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: #24272c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #34383f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484d57;
+}
+
+/* ::-webkit-scrollbar {
     width: 8px;
 }
 
@@ -15,7 +36,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #f8b32f;
     border-radius: 4px;
-}
+} */
 
 
 

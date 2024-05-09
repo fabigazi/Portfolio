@@ -14,7 +14,7 @@ import F1click from '../../imgs/F1click.png'
 const ImageColumn = () => (
     <div className="column image-column">
         <div className="image-wrapper">
-            <img className="image-circle" src={PMKSclick}/>  
+            <img className="image-circle" src={PMKSclick} />
             <img className="image-circle" src={F1click} />
             {/* <img className="image-circle" src="https://cdn.builder.io/api/v1/image/assets/TEMP/86638d571e74480da6e01f78fb9c548b5f2e66771134a3f81060c83c3fb5abbe?apiKey=c18181df491445f49c3752cb0e8829d9&" alt="" className="image" /> */}
         </div>
@@ -43,14 +43,16 @@ function Projects() {
     return (
         <div className="proj-container">
             <div className="button-group">
-                <Button label={"Software"} />
+                <Button label={"Software"} newClick={() => {
+                    console.log("coin.id");
+                }} />
                 <Button label={"Machine Learning"} />
                 <Button label={"Other"} />
             </div>
             <main className="main-content">
                 <div className="content-wrapper">
                     <ImageColumn />
-                    <Card title={projects[0].title} description={projects[0].description} image={projects[0].image} link={projects[0].link}/>
+                    <Card title={projects[0].title} description={projects[0].description} image={projects[0].image} link={projects[0].link} />
                 </div>
             </main>
         </div>
