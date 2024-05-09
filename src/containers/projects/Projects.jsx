@@ -41,7 +41,7 @@ function Projects() {
         },
     ];
     return (
-        <div className="proj-container">
+        <div className="proj-container" >
             <div className="button-group">
                 <Button label={"Software"} newClick={() => {
                     console.log("coin.id");

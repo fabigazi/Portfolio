@@ -25,15 +25,15 @@ const App = () => {
         <div className="inner-container">
           <Profile />
           <About />
-          <Divide title={"Projects"}/>
+          <Divide title={"Projects"} id={"projects"}/>
           <Projects />
-          <Divide title={"Skills"}/>
+          <Divide title={"Skills"} id={'skills'}/>
           <Skills />
           {/* <Divide title={"Certifications"}/> */}
           {/* <Certifications/> */}
-          <Divide title={"Experience"}/>
+          <Divide title={"Experience"} id={"experience"}/>
           <Experience />
-          <Divide title={"Contact Me"}/>
+          <Divide title={"Contact Me"} id={"contact"}/>
           <Contact />
         </div>
       </div>

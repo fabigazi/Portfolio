@@ -4,6 +4,26 @@
   justify-content: center;
 }
 
+.nav-item a {
+  font-family: Poppins, sans-serif;
+  font: 400 20px/71% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #ffffff;
+
+  font-weight: 700;
+
+  background-color: #24272c;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: -7px -7px 10px 0px rgba(255, 255, 255, 0.25),
+    10px 10px 12px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease;
+}
+
+
 .nav-link {
   font-family: Poppins, sans-serif;
   border-radius: 24px;
@@ -14,6 +34,12 @@
   padding: 23px 29px;
   color: #fff;
   text-decoration: none;
+}
+.nav-link:hover {
+  color: #ffffff;
+  background-color: #016679;
+  box-shadow: -3px -3px 5px 0px rgba(255, 255, 255, 0.25),
+    5px 5px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 991px) {

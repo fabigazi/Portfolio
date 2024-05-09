@@ -10,9 +10,9 @@ import character from '../../imgs/Portfolio-Character.png';
 
 const navItems = [
   { label: "Contact", link: "#contact" },
-  { label: "Resume", link: "#resume" },
+  { label: "Experience", link: "#experience" },
   { label: "About", link: "#about" },
-  { label: "Certificate", link: "#certificate" },
+  { label: "Skills", link: "#skills" },
   { label: "Projects", link: "#projects" },
 ];
 

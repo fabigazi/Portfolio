@@ -34,14 +34,14 @@ function ContactForm() {
 
 function Contact() {
   return (
-    <>
+    <div>
       <main className="main-container">
         <section className="content-wrapper">
-          <ImageSection />
+          {/* <ImageSection /> */}
           <ContactForm />
         </section>
       </main>
-    </>
+    </div>
   );
 }
 
