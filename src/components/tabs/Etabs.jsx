@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Tab from './Tab';
 import './etabs.css';
 import Exp from '../../containers/experinece/exp';
+import Edu from '../../containers/experinece/edu';
 //Etab stands for education tabs
 
 
@@ -13,7 +14,7 @@ const TabCondition = ({ tabnum }) => {
         );
     } else if(tabnum == 1) {
         return(
-            <></>
+            <Edu/>
         );
     } else {
         return(

@@ -6,14 +6,13 @@ import Profile from './containers/profile/Profile';
 import About from './containers/about/About';
 import Divide from './components/divide/Divide';
 import Projects from './containers/projects/Projects';
-import Skills from './containers/skills3/Skills3'
+import Skills from './containers/skills/Skills'
 import Experience from './containers/experinece/Experience';
 import Contact from './containers/contact/Contact';
 
 const navItems = [
   { label: "Contact", link: "#contact" },
   { label: "Experience", link: "#experience" },
-  { label: "About", link: "#about" },
   { label: "Skills", link: "#skills" },
   { label: "Projects", link: "#projects" },
 ];

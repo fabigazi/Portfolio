@@ -8,13 +8,6 @@ import profImage from '../../imgs/Fabi Profile Picture.jpg';
 import character from '../../imgs/Portfolio-Character.png';
 //"https://cdn.builder.io/api/v1/image/assets/TEMP/f5c91dca58c4038c73387136ec2b6d12fcb133dc17d4e48d3868e6445247580b?apiKey=c18181df491445f49c3752cb0e8829d9&"
 
-const navItems = [
-  { label: "Contact", link: "#contact" },
-  { label: "Experience", link: "#experience" },
-  { label: "About", link: "#about" },
-  { label: "Skills", link: "#skills" },
-  { label: "Projects", link: "#projects" },
-];
 
 function Profile() {
   return (
