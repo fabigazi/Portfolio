@@ -26,6 +26,12 @@
     10px 10px 12px 0px rgba(0, 0, 0, 0.25);
   transition: all 0.5s ease;
 }
+.custom-btns button.active {
+  color: #ffffff;
+  background-color: #016679;
+  box-shadow: -3px -3px 5px 0px rgba(255, 255, 255, 0.25),
+    5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
 
 .button.secondary .custom-btns {
   padding: 24px 18px;

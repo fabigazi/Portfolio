@@ -1,0 +1,16 @@
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background-color: #f1f1f1;
+}
+
+.tab-container {
+    padding: 10px;
+}
+ 
+.tab.active {
+    background-color: #444;
+}

@@ -1,0 +1,15 @@
+.tabs-container {
+    width: 100%;
+    margin: 20px auto;
+}
+ 
+.tabs {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ 
+.tab-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
