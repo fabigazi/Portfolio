@@ -36,3 +36,17 @@ body {
       padding: 0 20px;
     }
   }
+
+  .navbar {
+    align-self: stretch;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.38px;
+    line-height: 109%;
+    justify-content: space-between;
+  }

@@ -19,11 +19,7 @@ const navItems = [
 function Profile() {
   return (
     <section className="hero-content">
-      <nav className="navbar">
-        {navItems.map((item) => (
-          <NavBar key={item.label} {...item} />
-        ))}
-      </nav>
+      
       <img
         loading="lazy"
         src={character}
