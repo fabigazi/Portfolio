@@ -28,7 +28,7 @@
 
 .card-content {
     border-radius: 10px;
-    box-shadow: -18px -18px 36px 0px rgba(255, 255, 255, 0.25),
+    box-shadow: -12px -12px 24px 0px rgba(255, 255, 255, 0.25),
         18px 18px 36px 0px rgba(0, 0, 0, 0.25);
     background-color: #232732;
     display: flex;
@@ -45,12 +45,12 @@
 }
 
 .card-image {
-    aspect-ratio: 1.33;
+    aspect-ratio: 1.43;
     object-fit: auto;
     object-position: center;
     width: 100%;
     border-radius: 19px;
-    max-height: 50%;
+   
     align-self: stretch;
     background: linear-gradient(320deg, #232732 14.78%, #232732 95.73%);
     box-shadow: -5px -5px 5px 0 rgba(0, 0, 0, 0.75),
@@ -65,6 +65,7 @@
 
 .card-description {
     margin-top: 17px;
+    height: 200px;
     font: 300 17px/25px Poppins, -apple-system, Roboto, Helvetica,
         sans-serif;
 }

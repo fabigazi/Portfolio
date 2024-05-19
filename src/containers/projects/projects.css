@@ -1,8 +1,7 @@
 .proj-container {
     display: flex;
     flex-direction: column;
-    padding: 30px 11px 3px 30px;
-    margin-top: 43px;
+    padding: 0px 10px 0px 10px;
 }
 
 @media (max-width: 991px) {
@@ -13,58 +12,3 @@
     }
 }
 
-.button-group {
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.38px;
-    line-height: 120%;
-}
-
-@media (max-width: 991px) {
-    .button-group {
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-}
-
-
-.main-content {
-    margin-top: 40px;
-    padding-top: 21px;
-}
-
-@media (max-width: 991px) {
-    .main-content {
-        max-width: 100%;
-        padding-right: 20px;
-        margin-top: 40px;
-    }
-}
-
-
-
-
-
-
-.image {
-    aspect-ratio: 1;
-    object-fit: auto;
-    object-position: center;
-    width: 157px;
-    margin-top: 88px;
-}
-
-.image:first-child {
-    margin-top: 0;
-}
-
-@media (max-width: 991px) {
-    .image {
-        margin-top: 40px;
-    }
-}

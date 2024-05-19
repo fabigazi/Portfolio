@@ -8,16 +8,16 @@ import Edu from '../../containers/experinece/edu';
 
 
 const TabCondition = ({ tabnum }) => {
-    if(tabnum == 0){
-        return(
-            <Exp/>
+    if (tabnum == 0) {
+        return (
+            <Exp />
         );
-    } else if(tabnum == 1) {
-        return(
-            <Edu/>
+    } else if (tabnum == 1) {
+        return (
+            <Edu />
         );
     } else {
-        return(
+        return (
             <p>Error with {tabnum} tabs</p>
         );
     }
@@ -44,8 +44,9 @@ const Etabs = ({ tabs }) => {
                     />
                 ))}
             </div>
-                <TabCondition tabnum={activeTab}/>
-
+            <div className='element-container'>
+                <TabCondition tabnum={activeTab} />
+            </div>
         </div>
     );
 };
