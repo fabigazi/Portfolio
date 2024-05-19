@@ -1,0 +1,63 @@
+.python-button {
+    background-color: #7733ff;
+}
+
+.custom-img-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.custom-img-btns button {
+    font-family: Poppins, sans-serif;
+    font: 400 20px/71% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #ffffff;
+
+    font-weight: 700;
+
+    background-color: #24272c;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: -7px -7px 10px 0px rgba(255, 255, 255, 0.25),
+        10px 10px 12px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s ease;
+}
+
+.custom-img-btns button.active {
+    color: #ffffff;
+    background-color: #016679;
+    box-shadow: -3px -3px 5px 0px rgba(255, 255, 255, 0.25),
+        5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button.secondary .custom-img-btns {
+    padding: 24px 18px;
+}
+
+.custom-img-btns button:hover {
+    color: #ffffff;
+    background-color: #016679;
+    box-shadow: -3px -3px 5px 0px rgba(255, 255, 255, 0.25),
+        5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 991px) {
+    .button-label {
+        padding: 0 20px;
+    }
+}
+
+.image-circle {
+    
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(320deg, #232732 14.78%, #232732 95.73%);
+    box-shadow: -5px -5px 5px 0 rgba(0, 0, 0, 0.30),
+      3px 3px 3px 0 rgba(255, 255, 255, 0.70);
+}

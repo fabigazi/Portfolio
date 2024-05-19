@@ -9,6 +9,7 @@ import Projects from './containers/projects/Projects';
 import Skills from './containers/skills/Skills'
 import Experience from './containers/experinece/Experience';
 import Contact from './containers/contact/Contact';
+import { StrictMode } from 'react';
 
 const navItems = [
   { label: "Contact", link: "#contact" },
