@@ -1,4 +1,3 @@
-
 body {
     overflow: overlay;
 }
@@ -20,23 +19,10 @@ body {
     background: #484d57;
 }
 
-/* ::-webkit-scrollbar {
-    width: 8px;
+:root {
+
+    --bg: rgb(36, 39, 44);
+    --inner-bg: rgb(35, 39, 50);
+    --oq-white: rgba(255, 255, 255, 0.25);
+    --oq-black: rgba(0, 0, 0, 0.25);
 }
-
-::-webkit-scrollbar-track {
-    background: #2074d3;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #f7a21e;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #f8b32f;
-    border-radius: 4px;
-} */
-
-
-

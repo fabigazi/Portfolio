@@ -29,11 +29,7 @@ const App = () => {
       {/* <Slider value={value} onChange={handleChange} /> */}
       <div className="container">
         <div className="inner-container">
-          <nav className="navbar">
-            {navItems.map((item) => (
-              <NavBar key={item.label} {...item} />
-            ))}
-          </nav>
+            <NavBar navItems={navItems}/>
           <Profile />
           <About />
           <Divide title={"Projects"} id={"projects"} />

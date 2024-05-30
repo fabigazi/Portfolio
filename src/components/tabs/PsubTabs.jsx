@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import Tab from './Tab';
 import './psubtabs.css';
-import Software from '../../containers/projects/Software';
 import Card from "../../components/card/Card";
 import Imgbutton from '../button/Imgbutton';
 //ptabs are short for project tabs

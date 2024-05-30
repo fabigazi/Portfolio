@@ -38,7 +38,7 @@ function Skills() {
 
                 <div className="content-box">
                     {data.map((item) => (
-                        <div className="card" style={{ backgroundColor: item.color }}>
+                        <div className="card" key={item.id} style={{ backgroundColor: item.color }}>
                             <div className="skill-item">
                                 <img className="skill-img" src={item.img} />
                             </div>

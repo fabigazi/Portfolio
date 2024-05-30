@@ -22,13 +22,7 @@ function About() {
                     <div className="about-text-content">
                         <h2 className="about-title">About Me</h2>
                         <p className="about-description">
-                        During my time studying I enjoyed diving deap into my projects and working with my classmates.
-                        We worked to find creative solutions to difficult problems as well as creatin lasting conection.
-                        During my Undergrad I also competed all four years in NCAA Track and filed and persued my passion 
-                        for learning German as a second language. I would also persue other side projects to keep my skills 
-                        sharp and practice new concepts. The most important lesson my experinece through my six years of 
-                        Computer Science schooling is that you are never done learning. I am always excited to take what I 
-                        have learned so far and apply it tho the oportunities ahead.
+                        During my time studying I enjoyed diving deep into my projects and working with my classmates. I worked to find creative solutions to difficult problems as well as creating lasting connections. During my undergraduate career I also completed all four years in NCAA Track and Field and pursued my passion for learning German as a second language. I pursued other side projects to keep my skills sharp and practice new concepts. The most important lesson my experience through my six years of Computer Science schooling is that you are never done learning. I am always excited to take what I have learned so far and apply it to the opportunities ahead.
                         </p>
                     </div>
                 </div>

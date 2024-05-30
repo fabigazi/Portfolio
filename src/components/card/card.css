@@ -6,6 +6,8 @@
 @media (max-width: 991px) {
     .content-column {
         width: 100%;
+        
+        align-items: center;
     }
 }
 
@@ -19,9 +21,10 @@
     justify-content: center;
 }
 
+
 @media (max-width: 991px) {
     .content-card {
-        max-width: 100%;
+        max-width: 80%;
         margin-top: 40px;
     }
 }
@@ -55,6 +58,13 @@
     background: linear-gradient(320deg, #232732 14.78%, #232732 95.73%);
     box-shadow: -5px -5px 5px 0 rgba(0, 0, 0, 0.75),
       5px 5px 5px 0 rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 1000px) {
+    .card-image {
+        max-width: 95%;
+        margin: 20px;
+    }
 }
 
 .card-title {
