@@ -41,7 +41,7 @@ const App = () => {
           <Divide title={"Experience"} id={"experience"} />
           <Experience />
           <Divide title={"Contact Me"} id={"contact"} />
-          <Contact />
+          <Contact/>
         </div>
       </div>
 

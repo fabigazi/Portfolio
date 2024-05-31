@@ -7,7 +7,7 @@ import ExperienceCard from '../../components/experienceCard/ExperienceCard'
 function Exp() {
     const experiences = [
         {
-            title: "Software Engineer/Information Technology Consultant",
+            title: "Software Engineer / Information Technology Consultant",
             company: "Quality Health Ideas, Suffield. CT  | May 2020 - Present ",
             description:
                 "Coordinated with engineering teams to assess and optimize cross-functional hardware and software interfaces, reducing cost by half and increasing efficiency and organization. Monitored business functions to gather data for performance reports and Analysis, providing solutions to bottleneck deficiencies and increasing marketing and productive user time spent on app by 5%. Conducted integration of system installations, testing and code corrections, replacing existing systems. Communicated two years of consumer metrics, by sorting complex data analytics, in compliance with HIPPA regulations. Boosted process efficiency flow to enhance back-end tracking and reporting procedures. Participated in code reviews and documentation prior to releases, in a fast-paced environment.",

@@ -1,48 +1,61 @@
-import * as React from "react";
+import React, { useRef } from "react";
 import './contact.css'
 
-import Input from "../../components/input/Input";
+import emailjs from '@emailjs/browser';
+import Button from "../../components/button/Button";
 
-function ImageSection() {
-  return (
-    <div className="contact-image-container">
-      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ceea14481c75b6bd7a3af4703bb106bbfb52b42288d7803c850ba5701db15d2?apiKey=c18181df491445f49c3752cb0e8829d9&" alt="Your image description" className="contact-image" />
-    </div>
-  );
-}
+const Contact2 = () => {
 
+    const form = useRef()
 
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-function ContactForm() {
-  const inputFields = [
-    { label: "Name*", type: "text" },
-    { label: "Email ID*", type: "email" },
-    { label: "Message*", type: "textarea" },
-  ];
+        emailjs
+            .sendForm('service_70sw5da', 'template_id7wzli', form.current, {
+                publicKey: 'zLI7pYxkBw-4JeI5P',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
 
-  return (
-    <form className="contact-form">
-      {inputFields.map((field, index) => (
-        <Input key={index} label={field.label} type={field.type} />
-      ))}
-      <button type="submit" className="submit-button">
-        Send
-      </button>
-    </form>
-  );
-}
+        e.target.reset();
 
-function Contact() {
-  return (
-    <div>
-      <main className="main-container">
-        <section className="content-wrapper">
-          {/* <ImageSection /> */}
-          <ContactForm />
+    };
+    return (
+        <section>
+            <div className="contact-container">
+                <form ref={form} onSubmit={sendEmail}
+                    className="form-control contact- ">
+                    <input type="text"
+                        placeholder="Full Name*"
+                        className="input-field"
+                        name="user_name" required />
+
+                    <input type="email"
+                        placeholder="Email*"
+                        className="input-field"
+                        name="user_email" required />
+
+                    <input type="text"
+                        placeholder="Subject*"
+                        className="input-field"
+                        name="subject" required />
+
+                    <textarea name="message"
+                        className="input-field"
+                        id="1" cols="30" rows="10"></textarea>
+
+                    <Button type="submit" label="Send" variant="btn"/>
+                </form>
+            </div>
         </section>
-      </main>
-    </div>
-  );
+    );
 }
 
-export default Contact;
+export default Contact2
